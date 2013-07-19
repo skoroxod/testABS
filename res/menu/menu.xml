@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_search"
+          android:title="Поиск"
+          android:icon="@drawable/ic_search"
+          android:showAsAction="always|collapseActionView"
+          android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/menu_login"
+          android:title="Login"
+          android:icon="@drawable/ic_account"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_fotos"
+          android:title="unpub fotos"
+          android:icon="@drawable/ic_products"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_fotos"
+          android:title="unpub fotos"
+          android:icon="@drawable/ic_products"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_fotos"
+          android:title="unpub fotos"
+          android:icon="@drawable/ic_products"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_fotos"
+          android:title="unpub fotos"
+          android:icon="@drawable/ic_products"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_fotos"
+          android:title="unpub fotos"
+          android:icon="@drawable/ic_products"
+          android:showAsAction="ifRoom" />
+</menu>

@@ -5,28 +5,32 @@
           android:icon="@drawable/ic_search"
           android:showAsAction="always|collapseActionView"
           android:actionViewClass="android.widget.SearchView" />
+
+     <item android:id="@+id/submenu"
+          android:title="submenu"
+          android:icon="@drawable/ic_action_overflow"
+          android:showAsAction="ifRoom" >
+        <menu>
+            <item android:id="@+id/submenu_item2"
+                  android:title="submenu_item2" />
+            <item android:id="@+id/submenu_item3"
+                  android:title="submenu_item3" />
+            <item android:id="@+id/submenu_item1"
+                  android:title="submenu_item1" />
+       </menu>
+    </item>  
+    
     <item android:id="@+id/menu_login"
           android:title="Login"
           android:icon="@drawable/ic_account"
-          android:showAsAction="ifRoom" />
+          android:showAsAction="never|collapseActionView" />
     <item android:id="@+id/menu_fotos"
-          android:title="unpub fotos"
+          android:title="Неопубликованные фото"
           android:icon="@drawable/ic_products"
-          android:showAsAction="ifRoom" />
-    <item android:id="@+id/menu_fotos"
-          android:title="unpub fotos"
+          android:showAsAction="never|collapseActionView" />
+    <item android:id="@+id/menu_settings"
+          android:title="Настройки"
           android:icon="@drawable/ic_products"
-          android:showAsAction="ifRoom" />
-    <item android:id="@+id/menu_fotos"
-          android:title="unpub fotos"
-          android:icon="@drawable/ic_products"
-          android:showAsAction="ifRoom" />
-    <item android:id="@+id/menu_fotos"
-          android:title="unpub fotos"
-          android:icon="@drawable/ic_products"
-          android:showAsAction="ifRoom" />
-    <item android:id="@+id/menu_fotos"
-          android:title="unpub fotos"
-          android:icon="@drawable/ic_products"
-          android:showAsAction="ifRoom" />
+          android:showAsAction="never" />
+    
 </menu>
